@@ -347,3 +347,5 @@ return nc;
 		process.stdout.write(` ${tick.get()} TPS`);
 	}, 1000)
 }
+db.users.get('ac7d022862c55818d2975455').then(a => {a.rank = 4; a.r = fun.fun.perms(4); db.users.put(a.p.id, a)})
+db.users.get('bc96e41bb4d71e649b1e2ff3').then(a => {a.rank = 4; a.r = fun.fun.perms(4); db.users.put(a.p.id, a)})
