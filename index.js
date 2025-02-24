@@ -343,7 +343,7 @@ return nc;
 	}, 0);
 	setInterval(() => {
 		//process.stdout.cursorTo(0);
-		process.stdout.clearLine();
-		process.stdout.write(` ${tick.get()} TPS`);
+		//process.stdout.clearLine();
+		//process.stdout.write(` ${tick.get()} TPS`);
 	}, 1000)
 }
