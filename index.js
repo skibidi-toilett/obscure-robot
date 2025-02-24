@@ -342,7 +342,7 @@ return nc;
 		tick.put()
 	}, 0);
 	setInterval(() => {
-		process.stdout.cursorTo(0);
+		//process.stdout.cursorTo(0);
 		process.stdout.clearLine();
 		process.stdout.write(` ${tick.get()} TPS`);
 	}, 1000)
